@@ -63,6 +63,11 @@ sensor:
       name: Temperature
     humidity:
       name: Humidity
+  - platform: ahtx0
+    temperature:
+      name: Temperature
+    humidity:
+      name: Humidity
   - platform: am2320
     temperature:
       name: Temperature
